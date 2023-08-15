@@ -36,7 +36,7 @@
                     style="width: 100%"
                     v-model="form.customBackend"
                     :fetch-suggestions="backendSearch"
-                    placeholder="http://sub.sslyyds.top/sub?"
+                    placeholder="动动小手，（建议）自行搭建后端服务。例：http://127.0.0.1:25500/sub?"
                   >
                     <el-button slot="append" @click="gotoGayhub" icon="el-icon-link">前往项目仓库</el-button>
                   </el-autocomplete>
@@ -302,7 +302,7 @@ export default {
             label: "ssl",
             options: [
               {
-                label: "HoYoverse",
+                label: "hoyoverse",
                 value:
                   "https://raw.githubusercontent.com/abigailsothoth0/clash/main/clash%20noauto%20HoYoverse.ini"
               },
@@ -310,23 +310,6 @@ export default {
                 label: "short",
                 value:
                   "https://raw.githubusercontent.com/abigailsothoth0/clash/main/clash%20short.ini/n"
-              }
-            ]
-          }
-        ]
-      },
-          {
-            label: "universal",
-            options: [
-              {
-                label: "No-Urltest",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
-              },
-              {
-                label: "Urltest",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/urltest.ini"
               }
             ]
           },
