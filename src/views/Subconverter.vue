@@ -302,7 +302,7 @@ export default {
             label: "ssl",
             options: [
               {
-                label: "hoyoverse",
+                label: "HoYoverse",
                 value:
                   "https://raw.githubusercontent.com/abigailsothoth0/clash/main/clash%20noauto%20HoYoverse.ini"
               },
