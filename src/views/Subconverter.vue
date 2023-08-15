@@ -298,19 +298,19 @@ export default {
         },
         backendOptions: [{ value: "http://sub.sslyyds.top/sub?" }],
         remoteConfig: [
-          { label: "ssl"
-            options:[
-            {
-              label: "HoYoverse",
-              value:
-                "https://raw.githubusercontent.com/abigailsothoth0/clash/main/clash%20noauto%20HoYoverse.ini"
-            },
-            {
-              label: "short",
-              value:
-                "https://raw.githubusercontent.com/abigailsothoth0/clash/main/clash%20short.ini/n"
-            }
-          ]
+            { label: "ssl",
+              options: [
+              {
+                label: "HoYoverse",
+                value:
+                  "https://raw.githubusercontent.com/abigailsothoth0/clash/main/clash%20noauto%20HoYoverse.ini"
+              },
+              {
+                label: "short",
+                value:
+                  "https://raw.githubusercontent.com/abigailsothoth0/clash/main/clash%20short.ini/n"
+              }
+            ]
           },
           {
             label: "ACL4SSR",
