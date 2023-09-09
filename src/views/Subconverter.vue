@@ -296,7 +296,9 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "sslsub.tocmcc.cn/sub?" }],
+        backendOptions: [{ value: "https://sslsub.tocmcc.cn/sub?",
+                           value: "http://127.0.0.1:25500/sub?"
+                         }],
         remoteConfig: [
           {
             label: "ssl",
