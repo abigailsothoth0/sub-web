@@ -296,19 +296,9 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        customBackend: {
-          "本地后端": "http://127.0.0.1:255500/sub?",
-          "ssl": "https://sslsub.tocmcc.cn/sub?",
-          "肥羊增强型后端【vless+hysteria】": "https://api.v1.mk",
-          "肥羊备用后端【vless+hysteria】": "https://sub.d1.mk",
-          "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one",
-          nameless13提供: "https://www.nameless13.com",
-          subconverter作者提供: "https://sub.xeton.dev",
-          "sub-web作者提供": "https://api.wcc.best",
-          "sub作者&lhie1提供": "https://api.dler.io",
-        },
         backendOptions: [
           {value: "http://127.0.0.1:25500/sub?"},
+          {value: "https://sub.sslyyds.top/sub?"}
           {value: "https://sslsub.tocmcc.cn/sub?"},
           {value: "https://api.v1.mk"},
           {value: "https://sub.d1.mk"},
