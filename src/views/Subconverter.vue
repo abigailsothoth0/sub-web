@@ -298,7 +298,7 @@ export default {
         },
         backendOptions: [
           {value: "http://127.0.0.1:25500/sub?"},
-          {value: "https://sub.sslyyds.top/sub?"}
+          {value: "https://sub.sslyyds.top:25500/sub?"},
           {value: "https://sslsub.tocmcc.cn/sub?"},
           {value: "https://api.v1.mk"},
           {value: "https://sub.d1.mk"},
