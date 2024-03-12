@@ -317,6 +317,11 @@ export default {
                 value:
                   "https://raw.githubusercontent.com/abigailsothoth0/clash/main/clash%20noauto%20HoYoverse.ini"
               },
+               {
+                label: "proxifier",
+                value:
+                  "https://raw.githubusercontent.com/abigailsothoth0/clash/main/proxifier.ini"
+              },
               {
                 label: "short",
                 value:
